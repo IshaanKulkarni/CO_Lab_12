@@ -1,0 +1,9 @@
+module D_FlipFlop(Q,clk,D);
+output Q;
+input D;
+input clk;
+always @(posedge clk)
+begin
+	Q<=D;
+end
+endmodule
